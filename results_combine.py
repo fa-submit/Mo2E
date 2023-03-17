@@ -44,8 +44,8 @@ csv_val = '../endotract/data/val_endo1.csv'
 model_name = 'bit_resnext50_1'
 #load_path = args.load_path
 
-load_path1 = "experiments/endo/F1/mxp_2e-1_instance_instance/bit_resnext50_1/epoch_22_K_90.06_mAUC_95.90_MCC_89.86"
-load_path2 =  "experiments/endo/F1/mxp_2e-1_instance_class_new/bit_resnext50_1/epoch_25_K_89.84_mAUC_95.11_MCC_90.47"
+load_path1 = #"experiments/endo/F1/mxp_2e-1_instance_instance/bit_resnext50_1/epoch_22_K_90.06_mAUC_95.90_MCC_89.86" # load your saved model1
+load_path2 =  #"experiments/endo/F1/mxp_2e-1_instance_class_new/bit_resnext50_1/epoch_25_K_89.84_mAUC_95.11_MCC_90.47" # load your saved model2
 
 
 model1, mean, std = get_arch(model_name, n_classes=23)
