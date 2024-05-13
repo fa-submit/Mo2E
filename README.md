@@ -1,4 +1,4 @@
-# submission
+# Mo2E
 Download hyper-kvasir dataset from https://datasets.simula.no/hyper-kvasir/ , download : hyper-kvasir-labeled-images.zip dataset and use this.
 
 After downloading the data split the training set into 4 random splits in the ratio (80:20) (train:test).
